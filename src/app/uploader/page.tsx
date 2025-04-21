@@ -8,7 +8,7 @@ export default function Home() {
   const [currentFile, setCurrentFile] = useState<File | null>(null);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex flex-col items-center justify-between p-24">
       <UploadButton
         endpoint="imageUploader"
         onClientUploadComplete={(res) => {
