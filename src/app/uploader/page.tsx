@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="w-full max-w-2xl">
         <UploadDropzone
-          endpoint="imageUploader"
+          endpoint="videoUploader"
           onClientUploadComplete={(res) => {
             console.log("Files: ", res);
             alert("Upload Completed");
