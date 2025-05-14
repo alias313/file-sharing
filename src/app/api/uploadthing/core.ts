@@ -87,7 +87,7 @@ export const ourFileRouter = {
       return { uploadedBy: metadata.userId };
     }),
     textUploader: f({
-      pdf: {
+      text: {
         maxFileSize: "64KB",
         maxFileCount: 1,
       },
