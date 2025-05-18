@@ -13,9 +13,9 @@ export default function Home() {
           <div className="mt-4 p-4 bg-green-50 dark:bg-green-900/20 rounded-lg">
             <h3 className="text-lg font-semibold mb-2">Upload Successful!</h3>
             <p className="mb-2">Your file is available at:</p>
-            <a 
-              href={uploadedFileUrl} 
-              target="_blank" 
+            <a
+              href={uploadedFileUrl}
+              target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 dark:text-blue-400 hover:underline break-all"
             >
