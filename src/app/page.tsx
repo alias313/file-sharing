@@ -11,7 +11,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-4xl">
           <Link href="/image" className="p-4 border rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
             <h2 className="text-xl font-semibold mb-2">Image Upload</h2>
-            <p className="text-sm text-gray-600 dark:text-gray-400">Upload images up to 4MB</p>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Upload images up to 8MB</p>
           </Link>
           
           <Link href="/video" className="p-4 border rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
