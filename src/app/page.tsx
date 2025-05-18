@@ -33,6 +33,12 @@ export default function Home() {
             <h2 className="text-xl font-semibold mb-2">Text Upload</h2>
             <p className="text-sm text-gray-600 dark:text-gray-400">Upload text files up to 64KB</p>
           </Link>
+
+          <Link href="/blob" className="p-4 border rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+            <h2 className="text-xl font-semibold mb-2">Blob Upload</h2>
+            <p className="text-sm text-gray-600 dark:text-gray-400">Upload blob files up to 8MB</p>
+          </Link>
+
         </div>
       </main>
     </div>
