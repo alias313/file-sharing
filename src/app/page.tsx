@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center text-center">
-        <h1 className="text-4xl font-bold mb-4">Share your files with a link</h1>
+        <h1 className="text-4xl font-bold">Share your files with a link</h1>
+        <p className="text-2xl -mt-6">by Elies</p>
         <p className="text-lg mb-8">Upload the file to one of the formats below and a public link will be generated to access the file.</p>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-4xl">
