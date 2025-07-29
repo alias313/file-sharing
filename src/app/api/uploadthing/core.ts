@@ -52,7 +52,7 @@ export const ourFileRouter = {
     }),
     audioUploader: f({
       audio: {
-        maxFileSize: "4MB",
+        maxFileSize: "10MB",
         maxFileCount: 1,
       },
     })
