@@ -11,7 +11,7 @@ export const ourFileRouter = {
   imageUploader: f({
     image: {
       maxFileSize: "8MB",
-      maxFileCount: 1,
+      maxFileCount: 30,
     },
   })
     // Set permissions and file types for this FileRoute
@@ -37,7 +37,7 @@ export const ourFileRouter = {
     videoUploader: f({
       video: {
         maxFileSize: "16MB",
-        maxFileCount: 1,
+        maxFileCount: 3,
       },
     })
     .middleware(async ({ req }) => {
