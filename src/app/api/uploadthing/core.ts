@@ -36,7 +36,7 @@ export const ourFileRouter = {
     }),
     videoUploader: f({
       video: {
-        maxFileSize: "16MB",
+        maxFileSize: "32MB",
         maxFileCount: 3,
       },
     })
@@ -52,7 +52,7 @@ export const ourFileRouter = {
     }),
     audioUploader: f({
       audio: {
-        maxFileSize: "16MB",
+        maxFileSize: "64MB",
         maxFileCount: 1,
       },
     })
